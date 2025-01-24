@@ -7,9 +7,10 @@ I got tired of setting everything up from scratch every time I switched machines
 ## tools
 
 - [gh](https://github.com/cli/cli) - GitHub’s official command line tool
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
 
 ## thanks
 
