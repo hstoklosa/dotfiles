@@ -1,5 +1,5 @@
 [user]
-    name = Hubert Stoklosa
+    name = hstoklosa
     email = hubert.stoklosa23@gmail.com
 
 [alias]
@@ -72,6 +72,8 @@
 	sort = -committerdate
 
 [core]
+
+    editor = vim
 
 	# Use custom `.gitignore` and `.gitattributes`.
 	excludesfile = ~/.gitignore
