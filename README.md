@@ -10,7 +10,11 @@ I got tired of setting everything up from scratch every time I switched machines
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker 
+- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands
+- [btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
+
 
 ## thanks
 
