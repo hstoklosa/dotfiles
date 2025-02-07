@@ -6,8 +6,11 @@ I got tired of setting everything up from scratch every time I switched machines
 
 ## tools
 
+- [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh.
+- [cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
+- [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
 - [gh](https://github.com/cli/cli) - GitHub’s official command line tool
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
