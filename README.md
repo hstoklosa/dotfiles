@@ -8,11 +8,11 @@ I got tired of setting everything up from scratch every time I switched machines
 
 - [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh.
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh
 - [cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
 - [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
 - [gh](https://github.com/cli/cli) - GitHub’s official command line tool
-- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker 
@@ -20,6 +20,13 @@ I got tired of setting everything up from scratch every time I switched machines
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
 
+### zsh-autosuggestions
+
+Bind `ctrl` + `space` to accept the current suggestion.
+
+```bash
+bindkey '^ ' autosuggest-accept
+```
 
 ## thanks
 
