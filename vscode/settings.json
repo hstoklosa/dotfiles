@@ -1,0 +1,163 @@
+{
+  "editor.padding.top": 5,
+  "editor.minimap.enabled": false,
+  "editor.fontWeight": 400,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "phase",
+  "editor.quickSuggestionsDelay": 1,
+  "editor.suggest.preview": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.lineDecorationsWidth": 25,
+  "editor.overviewRulerBorder": false,
+  "workbench.editor.showTabs": "none",
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  // https://stackoverflow.com/a/71224912/13910414
+  // https://rachsmith.com/quickly-toggle-copilot/
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.fontFamily": "Monaco",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorCustomizations": {
+    "editorStickyScrollHover.background": "#272930",
+    "scrollbar.shadow": "#0000004C",
+    "[Dark+ Black]": {
+      "panel.background": "#000"
+    }
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "debug.console.lineHeight": 1,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[haskell]": {
+    "editor.defaultFormatter": "haskell.haskell"
+  },
+  "haskell.formattingProvider": "ormolu",
+  "markdown.preview.lineHeight": 1.638,
+  "markdown-pdf.displayHeaderFooter": false,
+  "markdown-pdf.styles": ["markdown.css"],
+  "git.ignoreMissingGitWarning": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "prettier.useEditorConfig": false,
+  "prettier.singleAttributePerLine": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "vscode_custom_css.imports": ["path/to/custom.css/file"],
+  "vscode_custom_css.statusbar": false,
+  "console-ninja.featureSet": "Pro",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "console-ninja.allowedHosts": ["wsl.localhost"],
+  "html.format.preserveNewLines": false,
+  "explorer.confirmDragAndDrop": false,
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedImport": "information",
+    "reportMissingImports": "none"
+  },
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "settingsSync.ignoredSettings": [
+    "editor.fontSize",
+    "editor.fontWeight",
+    "remote.SSH.configFile",
+    "vscode_custom_css.imports",
+    "editor.lineHeight",
+    "editor.letterSpacing"
+  ],
+  "terminal.integrated.letterSpacing": 1,
+  "terminal.integrated.lineHeight": 1.15,
+  "editor.smoothScrolling": true,
+  "editor.fontFamily": "Fira Code", // "Source Code Pro"
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 1.6,
+  "editor.mouseWheelScrollSensitivity": 3,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "typescript.format.indentSwitchCase": false,
+  "reactSnippets.settings.prettierEnabled": true,
+  "editor.bracketPairColorization.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "vsicons.dontShowNewVersionMessage": true,
+  "remote.SSH.configFile": "path/to/.ssh/config/file",
+  "remote.SSH.remotePlatform": {
+    "x.x.x.x": "linux"
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "300",
+  "C_Cpp.default.cppStandard": "c++17",
+  "workbench.iconTheme": "symbols",
+  "prettier.printWidth": 85,
+  "symbols.hidesExplorerArrows": false,
+  "window.zoomPerWindow": false,
+  "workbench.colorTheme": "Talles Souza",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.limit.enabled": true,
+  "editor.fontSize": 15,
+  "editor.guides.indentation": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "editor.accessibilitySupport": "off",
+  "haskell.manageHLS": "GHCup",
+  "editor.letterSpacing": -0.15,
+  "notebook.output.fontFamily": "Inter",
+  "notebook.lineNumbers": "on",
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 0.5,
+  "rainbow_csv.virtual_alignment_mode": "always",
+  "editor.largeFileOptimizations": false,
+  "markdown-preview-github-styles.darkTheme": "dark_high_contrast",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "cline.vsCodeLmModelSelector": {},
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "redhat.telemetry.enabled": false,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "workbench.activityBar.location": "hidden"
+}
