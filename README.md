@@ -6,6 +6,7 @@ I got tired of setting everything up from scratch every time I switched machines
 
 ## tools
 
+- [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands
 - [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh
@@ -37,6 +38,12 @@ alias lzd='lazydocker
 ```
 
 - List of [keybindings](https://github.com/jesseduffield/lazydocker/blob/master/docs/keybindings/Keybindings_en.md).
+
+### macos-specific tools
+
+- [Rectangle](https://github.com/rxhanson/Rectangle) - Move and resize windows on macOS with keyboard shortcuts and snap areas
+- [alt-tab-macos](https://github.com/lwouis/alt-tab-macos) - Windows alt-tab on macOS
+- [alfred-my-mind](https://github.com/nikitavoloboev/alfred-my-mind) - Alfred workflow to search through my notes and bookmarks
 
 ## thanks
 
