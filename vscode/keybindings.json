@@ -3,7 +3,7 @@
    * UI: Terminal
    */
   {
-    "key": "ctrl+oem_8",
+    "key": "ctrl+shift+oem_8",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
@@ -79,11 +79,19 @@
   },
   // shift+alt+oem_8, alt+oem_8
   {
-    "key": "shift+alt+oem_8",
+    "key": "ctrl+oem_8",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
     "key": "alt+oem_8",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "alt+`",
     "command": "workbench.action.toggleSidebarVisibility"
   },
 
@@ -110,6 +118,21 @@
     "command": "-extension.vim_ctrl+p",
     "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
   },
+  //   {
+  //     "key": "ctrl+t",
+  //     "command": "-editor.action.indentLines",
+  //     "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+  //   },
+  //   {
+  //     "key": "ctrl+t",
+  //     "command": "-extension.vim_ctrl+t",
+  //     "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+  //   },
+  //   {
+  //     "key": "ctrl+y",
+  //     "command": "extension.vim_ctrl+y",
+  //     "when": "editorTextFocus && vim.active && vim.use<C-y> && !inDebugRepl"
+  //   },
 
   /*
    * EXTENSION: Github Copilot
@@ -170,18 +193,13 @@
     "key": "alt+k",
     "command": "-editor.action.accessibilityHelpConfigureKeybindings",
     "when": "accessibilityHelpIsShown && accessibleViewHasUnassignedKeybindings"
-  },
-  {
-    "key": "alt+`",
-    "command": "-workbench.action.editorDictation.start",
-    "when": "hasSpeechProvider && !editorReadonly && !speechToTextInProgress"
-  },
-  {
-    "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+alt+b",
-    "command": "-workbench.action.toggleAuxiliaryBar"
   }
+  //   {
+  //     "key": "ctrl+b",
+  //     "command": "-workbench.action.toggleSidebarVisibility"
+  //   },
+  //   {
+  //     "key": "ctrl+alt+b",
+  //     "command": "-workbench.action.toggleAuxiliaryBar"
+  //   }
 ]

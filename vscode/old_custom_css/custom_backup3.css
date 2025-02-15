@@ -1,0 +1,121 @@
+.monaco-highlighted-label span {
+  font-weight: 400 !important;
+  color: #bbbbbb !important;
+}
+
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  font-weight: 400 !important;
+  color: #bbbbbb !important;
+  font-family: "Inter" !important;
+}
+
+.pane-body .monaco-list-rows .monaco-list-row {
+  min-height: 24px !important;
+  line-height: 24px !important;
+}
+
+.tabs .tabs-container {
+  background-color: none !important;
+}
+
+.tabs {
+  background-color: initial !important;
+}
+
+.sidebar .composite.title > .title-label {
+  display: none !important;
+}
+
+.sidebar .composite.title {
+  margin: 0.5rem 0 0rem 0 !important;
+}
+
+.sidebar .composite.title .title-actions {
+  padding-left: 7px !important;
+}
+
+.sidebar .composite.title .title-actions .actions-container {
+  justify-content: flex-start !important;
+  column-gap: 0.5rem !important;
+}
+
+.sidebar .composite.footer {
+  height: 100% !important;
+}
+
+.sidebar
+  .composite.footer
+  .composite-bar-container
+  .monaco-action-bar
+  .actions-container {
+  justify-content: space-around !important;
+  align-items: flex-end !important;
+}
+
+.sidebar .composite.footer .composite-bar-container .monaco-action-bar {
+  height: 100% !important;
+}
+
+.sidebar.footer {
+  padding-top: 0.3rem;
+}
+
+.sidebar
+  .composite.footer
+  .composite-bar-container
+  .monaco-action-bar
+  .actions-container
+  .action-item {
+  height: 27px !important;
+}
+
+.slider {
+  position: absolute !important;
+  right: 5px !important;
+  width: 5px !important;
+  left: auto !important;
+  border-radius: 999999rem;
+}
+
+#workbench.parts.sidebar .scrollbar .slider {
+  position: absolute !important;
+  right: 5px !important;
+  width: 5px !important;
+  left: auto !important;
+  border-radius: 999999rem;
+}
+
+.codicon-toolbar-more,
+.codicon-word-wrap {
+  display: block !important;
+}
+
+#workbench\.parts\.sidebar
+  > div.composite.has-composite-bar.header-or-footer.footer
+  > div
+  > div {
+  width: 100% !important;
+}
+
+.breadcrumbs-below-tabs
+  .breadcrumbs-control
+  .monaco-scrollable-element
+  .monaco-breadcrumbs {
+  font-family: "Inter", sans-serif !important;
+}
+
+.interactive-session
+  .chat-editor-container
+  .monaco-editor
+  .monaco-editor-background {
+  background-color: var(--vscode-input-background) !important;
+}
+
+.interactive-session .chat-editor-container .monaco-editor,
+.interactive-session
+  .chat-editor-container
+  .monaco-editor
+  .monaco-editor-background {
+  background-color: unset !important;
+}
