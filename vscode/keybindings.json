@@ -3,9 +3,13 @@
    * UI: Terminal
    */
   {
-    "key": "ctrl+shift+oem_8",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
   {
     "key": "alt+k",
@@ -181,10 +185,6 @@
     "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
   },
   {
-    "key": "ctrl+shift+3",
-    "command": "workbench.view.extension.claude-dev-ActivityBar"
-  },
-  {
     "key": "alt+k",
     "command": "-keybindings.editor.recordSearchKeys",
     "when": "inKeybindings && inKeybindingsSearch"
@@ -193,13 +193,24 @@
     "key": "alt+k",
     "command": "-editor.action.accessibilityHelpConfigureKeybindings",
     "when": "accessibilityHelpIsShown && accessibleViewHasUnassignedKeybindings"
+  },
+  {
+    "key": "ctrl+shift+4",
+    "command": "workbench.view.extension.roo-cline-ActivityBar"
+  },
+  {
+    "key": "ctrl+shift+3",
+    "command": "workbench.action.chat.openEditSession",
+    "when": "chatEditingParticipantRegistered && view != 'workbench.panel.chat.view.edits'"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-workbench.action.chat.openEditSession",
+    "when": "chatEditingParticipantRegistered && view != 'workbench.panel.chat.view.edits'"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
   }
-  //   {
-  //     "key": "ctrl+b",
-  //     "command": "-workbench.action.toggleSidebarVisibility"
-  //   },
-  //   {
-  //     "key": "ctrl+alt+b",
-  //     "command": "-workbench.action.toggleAuxiliaryBar"
-  //   }
 ]
