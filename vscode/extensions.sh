@@ -1,3 +1,8 @@
+#!/bin/sh
+
+# COMMAND USED: 
+# code --list-extensions | xargs -L 1 echo code --install-extension
+
 code --install-extension astro-build.astro-vscode
 code --install-extension bierner.github-markdown-preview
 code --install-extension bierner.markdown-checkbox
