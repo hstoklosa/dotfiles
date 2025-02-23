@@ -6,20 +6,47 @@ I got tired of setting everything up from scratch every time I switched machines
 
 ## tools
 
+**Cheat Sheets & Quick Reference**
+
+- [cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
 - [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands
-- [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
+- [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
+
+**Navigation & File Searching**
+
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells
+- [autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line
+- [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
+
+**Shell Enhancements**
+
+- [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use) - ZSH plugin that reminds you to use existing aliases for commands you just typed
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh
-- [cheat.sh](https://github.com/chubin/cheat.sh) - the only cheat sheet you need
-- [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
+
+**Version Control & Git Tools**
+
 - [gh](https://github.com/cli/cli) - GitHub’s official command line tool
-- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells
-- [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
-- [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
-- [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
 - [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands
+
+**Container Management**
+
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
+
+**Other Utilities**
+
+- [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
+- [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
+
+### oh-my-zsh
+
+- [colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages) - A plugin that adds colors to man pages
+- [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search) - A plugin that adds aliases for searching with Google, Wiki, Bing, YouTube and other popular services.
+- [copypath](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) - Copies the path of given directory or file to the system clipboard.
+- [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile) - Puts the contents of a file in your system clipboard so you can paste it anywhere.
+- [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos) - A plugin that provides a few utilities to make it more enjoyable on macOS (previously named OSX).
 
 ### zsh-autosuggestions
 
@@ -39,7 +66,7 @@ alias lzd='lazydocker
 
 - List of [keybindings](https://github.com/jesseduffield/lazydocker/blob/master/docs/keybindings/Keybindings_en.md).
 
-### macos-specific tools
+## macos-specific tools
 
 - [Rectangle](https://github.com/rxhanson/Rectangle) - Move and resize windows on macOS with keyboard shortcuts and snap areas
 - [alt-tab-macos](https://github.com/lwouis/alt-tab-macos) - Windows alt-tab on macOS
