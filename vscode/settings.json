@@ -166,7 +166,7 @@
    * EXTENSION: GitHub Copilot
    */
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": true,
     "markdown": true,
     "scminput": false
@@ -253,8 +253,17 @@
    * MISCALLANEOUS SETTINGS
    */
   "redhat.telemetry.enabled": false,
-"vsicons.dontShowNewVersionMessage": true,
-"window.zoomLevel": 0.3,
+  "vsicons.dontShowNewVersionMessage": true,
 "workbench.activityBar.location": "hidden",
-"editor.fontSize": 15
+"editor.fontSize": 15,
+"window.zoomLevel": 0.3,
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "workbench.editor.limit.value": 20
 }

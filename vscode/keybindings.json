@@ -7,10 +7,14 @@
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "ctrl+shift+`",
-    "command": "-workbench.action.terminal.new",
-    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    "key": "ctrl+shift+oem_8",
+    "command": "workbench.action.terminal.toggleTerminal"
   },
+  //   {
+  //     "key": "ctrl+shift+`",
+  //     "command": "-workbench.action.terminal.new",
+  //     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  //   },
   {
     "key": "alt+k",
     "command": "workbench.action.terminal.resizePaneUp",
@@ -195,11 +199,7 @@
     "when": "accessibilityHelpIsShown && accessibleViewHasUnassignedKeybindings"
   },
   {
-    "key": "ctrl+shift+4",
-    "command": "workbench.view.extension.roo-cline-ActivityBar"
-  },
-  {
-    "key": "ctrl+shift+3",
+    "key": "ctrl+shift+2",
     "command": "workbench.action.chat.openEditSession",
     "when": "chatEditingParticipantRegistered && view != 'workbench.panel.chat.view.edits'"
   },
@@ -212,5 +212,53 @@
     "key": "ctrl+`",
     "command": "-workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+3",
+    "command": "claude-dev.SidebarProvider.focus"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "-editor.action.replaceOne",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "-search.action.replace",
+    "when": "isEditableItem && matchFocus && replaceActive && searchViewletVisible"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "-search.action.replaceAllInFile",
+    "when": "fileMatchFocus && isEditableItem && replaceActive && searchViewletVisible"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "-search.action.replaceAllInFolder",
+    "when": "folderMatchFocus && isEditableItem && replaceActive && searchViewletVisible"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+shift+2",
+    "command": "-extension.vim_ctrl+shift+2",
+    "when": "editorTextFocus && vim.active && vim.use<C-shift+2>"
+  },
+  {
+    "key": "ctrl+shift+2",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+4",
+    "command": "workbench.view.extension.roo-cline-ActivityBar"
   }
 ]
