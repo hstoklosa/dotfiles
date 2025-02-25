@@ -35,6 +35,7 @@ I got tired of setting everything up from scratch every time I switched machines
 
 **Other Utilities**
 
+- [thefuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
 - [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
