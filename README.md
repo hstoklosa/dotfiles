@@ -17,6 +17,7 @@ I got tired of setting everything up from scratch every time I switched machines
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells
 - [autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
+- [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 
 **Shell Enhancements**
 
@@ -24,20 +25,22 @@ I got tired of setting everything up from scratch every time I switched machines
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh
 
-**Version Control & Git Tools**
+**Version Control & Tools**
 
 - [gh](https://github.com/cli/cli) - GitHub’s official command line tool
 - [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands
-
-**Container Management**
-
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
+
+**AI Tools**
+
+- [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
+- [copilot](https://github.com/github/copilot) - AI-powered code completion tool by GitHub.
 
 **Other Utilities**
 
 - [thefuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
-- [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
+- [duf](https://github.com/muesli/duf) - Disk Usage/Free Utility - a better 'df' alternative
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
 
