@@ -18,6 +18,7 @@ I got tired of setting everything up from scratch every time I switched machines
 - [autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
 - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 
 **Shell Enhancements**
 
